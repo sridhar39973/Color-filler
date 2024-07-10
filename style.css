@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(to right, #ff6699, #ffcc66, #66ffcc);
+    /*overflow-y: hidden;*/
+}
+h1{
+    color: gray;
+}
+#first{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    display: inline-flex;
+    flex-direction: row;
+    margin: 20px;
+    background-color: #fff;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}   
+.btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 1.5rem;
+}
+#red:hover{
+    background-color: red;
+}
+#green:hover{
+    background-color: green;
+}
+#blue:hover{
+    background-color: blue;
+}
+#white:hover{
+    background-color: #fff;
+}
